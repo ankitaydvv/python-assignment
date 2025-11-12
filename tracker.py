@@ -1,5 +1,5 @@
 # tracker.py
-# Author: Alok
+# Author: Ankita
 # Date: 30th Sept, 2025
 # Project: Daily Calorie Tracker CLI
 
@@ -72,4 +72,5 @@ if choice == "yes":
         f.write(f"Average:\t{avg_cal:.2f}\n")
         f.write("--------------------------------------\n")
         f.write("status_msg ")
+
     print(f"\n📂 Session saved successfully to {filename}")
